@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Temperature converter</title>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/x-icon" href="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/a32f81155cd0d4f16d36aef74f7d2644.png">
+</head>
+<body>
+    <main>
+    <header class="main-title"> 
+        <h1>TEMPERATURE CONVERTER BY FAIQ AUDAH</h1>
+    </header>
+    
+    <section>
+        <!--main section-->
+        
+        <section class="main-section">
+            <h4>Bagaimana cara mengonversi : </h4>
+            <ol>
+                <li>masukan satuan suhu yang ingin dikonversi. Baik derajat celcius (&deg;C) maupun Fahrenheit (&deg;F) ke kotak dibawah</li>
+                <li>klik tombol konversi untuk mendapatkan hasil</li>
+                <li>tunggu sebentar untuk mendapatkan hasil dari konversi suhu</li>
+            </ol>
+            <h3>Fungsi tombol dan cara pengisian</h3>
+        </section>
+
+        <div id="c-to-f">
+        <div>
+            <section class="section-celcius"> 
+                <h3>Celcius (&deg;C)</h3>
+            </section>
+            <article>
+                <textarea rows="3" id="c-to-f-input"></textarea>
+            </div>
+                <div class="tombol">
+                    <button id="button-convert" type="button">Convert</button> 
+                    <button id="button-reset">Reset</button>
+                    <button id="button-reverse" onclick="reverse();" type="button">Reverse</button>
+                </div>
+                
+            </article>
+        
+        </div>
+        
+        <div>
+            <section class="section-Fahrenheit"> 
+                <h3>Fahrenheit (&deg;F)</h3>
+            </section>
+            <article>
+                <textarea rows="3"></textarea>
+            </div>
+        
+        </div>
+        <div id="f-to-c">
+            <div>
+                <section class="section-celcius"> 
+                    <h3>Celcius (&deg;C)</h3>
+                </section>
+                <article>
+                    <textarea rows="3"></textarea>
+                </div>
+                    <div class="tombol">
+                        <button id="button-convert" type="button">Convert</button> 
+                        <button id="button-reset">Reset</button>
+                        <button id="button-reverse" onclick="reverse();" type="button">Reverse</button>
+                    </div>
+                    
+                </article>
+            
+            <div class="f-to-c">
+                <section class="section-Fahrenheit"> 
+                    <h3>Fahrenheit (&deg;F)</h3>
+                </section>
+                <article>
+                    <textarea rows="3"></textarea>
+            </div>
+    
+        </div>
+        
+            <section class="section-result"> 
+                <h3>Cara Kalkulasi (&deg;C)</h3>
+            </section>
+            <article>
+                <textarea rows="3"></textarea>
+            </article>
+        <section class="section-explanation">
+            <p class="before-explanation">Fahrenheit ke celcius</p>
+        <h3> Cara konversi dari celcius (&deg;C) ke Fahrenheit (&deg;F) </h3>
+        
+            <hr>
+    </section>
+        <section>
+            <p>suhu S dalam derajat Fahrenheit (&deg;F) sama dengan suhu S dalam derajat <br> celcius (&deg;C) kali 9/5 tambah 32</p>
+                <h1 class="rumus">S<sub class="To-f">(&deg;F)</sub>=(S(&deg;C)X9/5)+32</h1>
+        </section>
+        <p>atau</p>
+        <h1 class="rumus">S<sub class="To-f">(&deg;F)</sub>=(S(&deg;C)X1.8)+32</h1>
+    </main>
+    </section>
+</body>
+
+
+</html>
